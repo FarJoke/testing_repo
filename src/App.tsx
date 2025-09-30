@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ReactHooks from './pages/state managers/ReactHooks';
@@ -8,7 +8,7 @@ import Redux from './pages/state managers/Redux';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
          <nav style={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
           <Link to="/">Главная</Link>
           <Link to="/about">О проекте</Link>
@@ -21,10 +21,11 @@ function App() {
             <Route path="reactHooks" element={<ReactHooks />} />
             <Route path="redux" element={<Redux />} />
           </Route>
-          {/* 404 */}
+
           <Route path="*" element={<h1>Страница не найдена</h1>} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter>*/} 
+      Hello world!
     </div>
   );
 }
